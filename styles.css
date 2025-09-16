@@ -1,0 +1,102 @@
+/* Basic reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Makes width and height include padding and border */
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+.site-header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.site-header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Container sections */
+.container {
+  background-color: #ffffff;
+  border: 2px solid #ddd;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+/* Headings inside container */
+.container h2 {
+  color: #4a90e2;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+/* Paragraph inside container */
+.container p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* Box model example */
+.box-model-example {
+  background-color: #e6f0ff;
+  border: 3px solid #4a90e2;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 4px;
+  font-style: italic;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #357abd;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 40px;
+}
